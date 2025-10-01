@@ -7,6 +7,9 @@
 ## 📌 Project Overview
 SmartGlobe is an interactive GUI-based application that integrates a 3D globe with AI-powered conversational ability.  
 The aim was to allow users to click any location on the globe, extract latitude/longitude, and query an AI model (DeepSeek via OpenRouter) about that place (tourism, history, culture, food, etc.).
+![ss](CesiumTest/ss1.png)
+![ss](CesiumTest/ss2.png)
+![ss](CesiumTest/ss3.png)
 
 ---
 
@@ -44,7 +47,3 @@ curl -X GET "https://api.duckduckgo.com/?q=Dhaka&format=json" -o output.json
 curl -X GET "https://nominatim.openstreetmap.org/search?q=Dhaka&format=json&limit=1" -o coords.json
 ```
 
-![ss](image/ss1)
-![ss](image/ss2)
-![ss](image/ss3)
-![ss](image/ss4)
